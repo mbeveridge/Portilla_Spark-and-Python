@@ -1,7 +1,7 @@
 ### §1 Introduction to the Course
 
-* 01
-* 02
+* [01](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/5856256?start=5) Introduction
+* [02](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804318?start=0) Course Overview
 * 03
 * 04
 
