@@ -27,7 +27,7 @@ Then in the second half of the course :
 * [01](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/5856256?start=5) Introduction
 * [02](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804318?start=0) Course Overview [[slides](https://docs.google.com/presentation/d/1pRsyibkbWbfWiKRh4hVgxUZlZ6wLKQLkxbUwkIvnauc/edit#slide=id.p)]
 * [03](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804316?start=0) Frequently Asked Questions
-* 04 What is Spark? Why Python?
+* [04](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804314?start=0) What is Spark? Why Python?
 
 
 ### §2 Setting up Python with Spark
