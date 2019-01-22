@@ -32,7 +32,8 @@ Then in the second half of the course :
 
 ### §2 Setting up Python with Spark
 
-* 05
+* [05](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6681692?start=0) Setting up Python with Spark [[slides](https://docs.google.com/presentation/d/1fZErOcKjN3Yq95eD8A716_jw-XnwRAeiNFTF7q74iJM/edit#slide=id.p)] ...[*4 main installation options*]
+* 06 Note on Installation Sections
 
 
 ### §3 Local VirtualBox set-up
