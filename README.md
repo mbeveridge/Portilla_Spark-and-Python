@@ -3,8 +3,8 @@
 
 We will cover the following topics :
 
-* Spark and Big Data basics
-* Setting up Spark in various ways
+* Spark and Big Data basics [s1]
+* Setting up Spark in various ways [s2]
 * Python crash course
 * Python and Spark 2.0 DataFrames
 * PySpark project exercise
@@ -26,7 +26,7 @@ Then in the second half of the course :
 
 * [01](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/5856256?start=5) Introduction
 * [02](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804318?start=0) Course Overview [[slides](https://docs.google.com/presentation/d/1pRsyibkbWbfWiKRh4hVgxUZlZ6wLKQLkxbUwkIvnauc/edit#slide=id.p)]
-* 03 Frequently Asked Questions
+* [03](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804316?start=0) Frequently Asked Questions
 * 04 What is Spark? Why Python?
 
 
