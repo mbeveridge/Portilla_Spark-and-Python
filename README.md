@@ -3,8 +3,8 @@
 
 We will cover the following topics :
 
-* Spark and Big Data basics [s1]
-* Setting up Spark in various ways [s2]
+* Spark and Big Data basics [**s1**]
+* Setting up Spark in various ways [**s2, s3, s4, s5, s6**]
 * Python crash course
 * Python and Spark 2.0 DataFrames
 * PySpark project exercise
@@ -35,10 +35,10 @@ Then in the second half of the course :
 * 05
 
 
-### §3
-### §4
-### §5
-### §6
+### §3 Local VirtualBox set-up
+### §4 AWS EC2 PySpark set-up
+### §5 Databricks set-up
+### §6 AWS EMR Cluster set-up
 ### §7
 ### §8
 ### §9
