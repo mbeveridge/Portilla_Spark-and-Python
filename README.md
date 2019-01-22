@@ -38,13 +38,15 @@ Then in the second half of the course :
 
 ### §3 Local VirtualBox set-up [[slides](https://docs.google.com/presentation/d/1FH8-DGwxCIOrfSBUmInfFFNQ2H2oulp_HOHAjbVyCDA/edit)]
 
-* [07](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6681698?start=0) Local installation VirtualBox Pt1
-* 08 Local installation VirtualBox Pt2
+* [07](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6681698?start=0) Local installation VirtualBox Pt1 ...[*install VirtualBox and Ubuntu*]
+* [08](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6806898?start=0) Local installation VirtualBox Pt2 ...[*install Python, Jupyter notebook, Spark*]
 * 09 Setting up PySpark
 
 
 ### §4 AWS EC2 PySpark set-up
 ### §5 Databricks set-up
+[*'easiest way to get started, it's all online'*]
+
 ### §6 AWS EMR Cluster set-up
 ### §7
 ### §8
