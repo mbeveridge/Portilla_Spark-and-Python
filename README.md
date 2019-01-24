@@ -40,7 +40,7 @@ Then in the second half of the course :
 
 * [07](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6681698?start=0) Local installation VirtualBox Pt1 ...[*install VirtualBox and Ubuntu*]
 * [08](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6806898?start=0) Local installation VirtualBox Pt2 ...[*install Python, Jupyter notebook, Spark*]
-* [09](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7007266?start=0) Setting up PySpark
+* [09](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7007266?start=0) Setting up PySpark ...[*`findspark` library, to use `pyspark` from any directory*]
 
 
 ### §4 AWS EC2 PySpark set-up
