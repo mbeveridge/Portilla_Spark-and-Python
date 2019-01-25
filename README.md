@@ -46,8 +46,8 @@ Then in the second half of the course :
 ### §4 AWS EC2 PySpark set-up
 
 * [10](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6681696?start=0) AWS EC2 set-up guide ...[*create a free Account*]
-* [11](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005602?start=0) Creating the EC2 Instance
-* 12 SSH with Mac or Linux
+* [11](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005602?start=0) Creating the EC2 Instance [aws.amazon.com]
+* [12](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005604?start=0) SSH with Mac or Linux
 * 13 Installations on EC2
 
 
