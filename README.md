@@ -54,7 +54,7 @@ Then in the second half of the course :
 ### §5 Databricks set-up
 [*'easiest way to get started, it's all online'*]
 
-* [14](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804308?start=0) Databricks set-up
+* [14](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804308?start=0) Databricks set-up ...[[https://community.cloud.databricks.com](https://community.cloud.databricks.com)]
 
 ### §6 AWS EMR Cluster set-up
 ### §7
