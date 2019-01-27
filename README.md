@@ -43,7 +43,7 @@ Then in the second half of the course :
 * [09](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7007266?start=0) Setting up PySpark ...[*`findspark` library, to use `pyspark` from any directory*]
 
 
-### §4 AWS EC2 PySpark set-up
+### §4 AWS EC2 PySpark set-up [Elastic Compute Cloud]
 
 * [10](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6681696?start=0) AWS EC2 set-up guide ...[[aws.amazon.com](https://aws.amazon.com/)] [*create free Account*]
 * [11](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005602?start=0) Creating the EC2 Instance [*save the 'pem' file*]
@@ -56,9 +56,10 @@ Then in the second half of the course :
 * [14](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804308?start=0) Databricks set-up ...[[https://community.cloud.databricks.com](https://community.cloud.databricks.com)] [`df = sqlContext.sql("SELECT * FROM mytable")`]
 
 
-### §6 AWS EMR Cluster set-up
+### §6 AWS EMR Cluster set-up [Elastic MapReduce]
+*"EMR is a collection of EC2 instances with Hadoop (and optionally Hive and/or Pig) installed and configured on them"*
 
-* [15](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804310?start=0) AWS EMR set-up ...[*Quickly set-up a cluster with a notebook interface. Not free*]
+* [15](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804310?start=0) AWS EMR set-up ...[*Quickly set-up a cluster with a notebook interface. Not free*] [zeppelin.apache.org]
 
 
 ### §7 Python Crash Course
