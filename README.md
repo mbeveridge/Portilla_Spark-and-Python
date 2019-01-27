@@ -59,7 +59,7 @@ Then in the second half of the course :
 ### §6 AWS EMR Cluster set-up [Elastic MapReduce]
 *"EMR is a collection of EC2 instances with Hadoop (and optionally Hive and/or Pig) installed and configured on them"*
 
-* [15](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804310?start=0) AWS EMR set-up ...[*Quickly set-up a cluster with a notebook interface. Not free*] [zeppelin.apache.org]
+* [15](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804310?start=0) AWS EMR set-up ...[*Quickly set-up a cluster with a notebook interface. Not free*] [[zeppelin.apache.org](https://zeppelin.apache.org/)]
 
 
 ### §7 Python Crash Course
