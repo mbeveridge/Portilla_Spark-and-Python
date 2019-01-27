@@ -61,7 +61,17 @@ Then in the second half of the course :
 * [15](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804310?start=0) AWS EMR set-up ...[*Quickly set-up a cluster with a notebook interface. Not free*]
 
 
-### §7
+### §7 Python Crash Course
+
+* 16 Python Crash Course - Introduction
+* 17 Jupyter Notebook Overview
+* 18 Python Crash Course - pt1
+* 19 Python Crash Course - pt2
+* 20 Python Crash Course - pt3
+* 21 Python Crash Course - Exercises
+* 22 Python Crash Course - Exercise Solutions
+
+
 ### §8
 ### §9
 ### §10
