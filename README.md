@@ -46,7 +46,7 @@ Then in the second half of the course :
 ### §4 AWS EC2 PySpark set-up [Elastic Compute Cloud]
 
 * [10](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6681696?start=0) AWS EC2 set-up guide ...[[aws.amazon.com](https://aws.amazon.com/)] [*create free Account*]
-* [11](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005602?start=0) Creating the EC2 Instance [*save the 'pem' file*]
+* [11](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005602?start=0) Creating the EC2 Instance [*save the PEM file (which has EC2 key pair), to give you SSH access*]
 * [12](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005604?start=0) SSH with Mac or Linux ...[`cd` *to folder with 'pem' file, (then* `chmod 400 newspark.pem` *to protect against accidental overwriting,) then* `ssh -i newspark.pem ubuntu@<dns address of instance, from console>`]
 * [13](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005606?start=0) Installations on EC2 ...[`sudo apt-get update`] [*Jupyter Notebook; (Java, Scala, py4j,) Spark, (findspark); connect with PySpark --> access EC2 Jupyter Notebook in local browser*] [*Installed this Spark version* : `wget http://archive.apache.org/dist/spark/spark-2.4.0/spark-2.4.0-bin-hadoop2.7.tgz`]
 
