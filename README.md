@@ -5,7 +5,7 @@ We will cover the following topics :
 
 * Spark and Big Data basics [**s1**]
 * Setting up Spark in various ways [**s2, s3, s4, s5, s6**]
-* Python crash course
+* Python crash course [**s7**]
 * Python and Spark 2.0 DataFrames
 * PySpark project exercise
 
