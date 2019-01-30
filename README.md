@@ -65,7 +65,7 @@ Then in the second half of the course :
 ### §7 Python Crash Course
 
 * [16](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6813426?start=0) Python Crash Course - Introduction
-* 17 Jupyter Notebook Overview
+* [17](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6965316?start=0) Jupyter Notebook Overview
 * 18 Python Crash Course - pt1
 * 19 Python Crash Course - pt2
 * 20 Python Crash Course - pt3
