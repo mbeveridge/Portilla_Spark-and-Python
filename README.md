@@ -67,7 +67,7 @@ Then in the second half of the course :
 * [17](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6965316?start=0) Jupyter Notebook Overview ...[*From Q&A: "Spark is not a language, but a library"*]
 * [18](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804666?start=0) Python Crash Course - pt1 ...[*Data structures : List, Dictionary, Tuple, Set*]
 * [19](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804666?start=15) Python Crash Course - pt2 ...[*Operators : Comparison, Logic*] [*Loops : For, While*]
-* 20 Python Crash Course - pt3
+* [20](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6813434?start=0) Python Crash Course - pt3
 * 21 Python Crash Course - Exercises
 * 22 Python Crash Course - Exercise Solutions
 
