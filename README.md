@@ -35,7 +35,7 @@ Then in the second half of the course :
 * [06](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6813186?start=0) Note on Installation Sections
 
 
-### §3 Local VirtualBox set-up [[slides](https://docs.google.com/presentation/d/1FH8-DGwxCIOrfSBUmInfFFNQ2H2oulp_HOHAjbVyCDA/edit)]
+### §3 Local VirtualBox set-up [[slides](https://docs.google.com/presentation/d/1FH8-DGwxCIOrfSBUmInfFFNQ2H2oulp_HOHAjbVyCDA/edit) ...*for s3-s6*]
 
 * [07](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6681698?start=0) Local installation VirtualBox Pt1 ...[*install VirtualBox and Ubuntu*]
 * [08](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6806898?start=0) Local installation VirtualBox Pt2 ...[*install Python, Jupyter notebook, Spark*]
@@ -61,7 +61,7 @@ Then in the second half of the course :
 * [15](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6804310?start=0) AWS EMR set-up ...[*Quickly set-up a cluster with a Zeppelin Notebook interface.* **NOT $free**] [[zeppelin.apache.org](https://zeppelin.apache.org/)]
 
 
-### §7 Python Crash Course
+### §7 Python Crash Course [[slides](https://docs.google.com/presentation/d/1CuqvSGMqdMTT1dTblX5enEqZNLS8d0fHwZImQ3zzbpQ/edit)]
 
 * [16](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6813426?start=0) Python Crash Course - Introduction
 * [17](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6965316?start=0) Jupyter Notebook Overview ...[*From Q&A: "Spark is not a language, but a library"*]
