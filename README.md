@@ -5,8 +5,8 @@ We will cover the following topics :
 * Spark and Big Data basics [**s1**]
 * Setting up Spark in various ways [**s2, s3, s4, s5, s6**]
 * Python crash course [**s7**]
-* Python and Spark 2.0 DataFrames
-* PySpark project exercise
+* Python and Spark 2.0 DataFrames [**s8**]
+* PySpark project exercise [**s9**]
 
 Then in the second half of the course :
 
@@ -72,7 +72,17 @@ Then in the second half of the course :
 * 22 Python Crash Course - Exercise Solutions
 
 
-### §8
+### §8 Spark DataFrame Basics
+
+* 23 Spark DataFrames - Introduction
+* 24 Spark DataFrames - Basics pt1
+* 25 Spark DataFrames - Basics pt2
+* 26 Spark DataFrames - Basic Operations
+* 27 Groupby and Aggregate Operations
+* 28 Missing Data
+* 29 Dates and Timestamps
+
+
 ### §9
 ### §10
 ### §11
