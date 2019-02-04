@@ -72,9 +72,9 @@ Then in the second half of the course :
 * 22 Python Crash Course - Exercise Solutions
 
 
-### §8 Spark DataFrame Basics
+### §8 Spark DataFrame Basics [[slides](https://docs.google.com/presentation/d/1kItYFXxc5Zx-LG-3yizJweZMKev-joLfHLz9rGN7xAE/edit#slide=id.p)]
 
-* 23 Spark DataFrames - Introduction
+* [23](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688214?start=0) Spark DataFrames - Introduction
 * 24 Spark DataFrames - Basics pt1
 * 25 Spark DataFrames - Basics pt2
 * 26 Spark DataFrames - Basic Operations
