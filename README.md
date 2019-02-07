@@ -46,8 +46,8 @@ Then in the second half of the course :
 
 * [10](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6681696?start=0) AWS EC2 set-up guide ...[[aws.amazon.com](https://aws.amazon.com/)]
 * [11](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005602?start=0) Creating the EC2 Instance [*save PEM file (which has EC2 key pair), to give you SSH access*]
-* [12](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005604?start=0) SSH with Mac or Linux ...[`cd` *to folder with PEM file, (then* `chmod 400 newspark.pem` *to protect against accidental overwriting,) then* **`ssh -i newspark.pem ubuntu@<dns address of instance, from console>`**]
-* [13](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005606?start=0) Installations on EC2 ...[`sudo apt-get update`] [*Jupyter Notebook; (Java, Scala, py4j,) Spark, (findspark); connect with PySpark --> access EC2 Jupyter Notebook in local browser*] [*Installed this Spark version* : `wget http://archive.apache.org/dist/spark/spark-2.4.0/spark-2.4.0-bin-hadoop2.7.tgz`]
+* [12](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005604?start=0) SSH with Mac or Linux ...[**`cd` *to folder with PEM file**, (then* `chmod 400 newspark.pem` *to protect against accidental overwriting,) then* **`ssh -i newspark.pem ubuntu@<dns address of instance, from console>`**]
+* [13](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/7005606?start=0) Installations on EC2 ...[`sudo apt-get update`] [*Jupyter Notebook; (Java, Scala, py4j,) Spark, (findspark); connect with PySpark --> access EC2 Jupyter Notebook in local browser @12'45*] [*Installed this Spark version* : `wget http://archive.apache.org/dist/spark/spark-2.4.0/spark-2.4.0-bin-hadoop2.7.tgz`]
 
 
 ### §5 Databricks set-up
@@ -75,7 +75,7 @@ Then in the second half of the course :
 ### §8 Spark DataFrame Basics [[slides](https://docs.google.com/presentation/d/1kItYFXxc5Zx-LG-3yizJweZMKev-joLfHLz9rGN7xAE/edit#slide=id.p)]
 
 * [23](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688214?start=0) Spark DataFrames - Introduction
-* [24](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6674914?start=0) Spark DataFrames - Basics pt1 ...[`from pyspark.sql import SparkSession`; `spark = SparkSession.builder.appName('Basics').getOrCreate()`; `df = spark.read.json('people.json')`] [`df.show()`; `df.printSchema()`; `df.columns`; `df.describe()`; `df.describe().show()`]
+* [24](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6674914?start=0) Spark DataFrames - Basics pt1 ...[**`from pyspark.sql import SparkSession`**; **`spark = SparkSession.builder.appName('Basics').getOrCreate()`**; **`df = spark.read.json('people.json')`**] [`df.show()`; `df.printSchema()`; `df.columns`; `df.describe()`; `df.describe().show()`]
 * 25 Spark DataFrames - Basics pt2
 * 26 Spark DataFrames - Basic Operations
 * 27 Groupby and Aggregate Operations
