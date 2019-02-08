@@ -76,7 +76,7 @@ Then in the second half of the course :
 
 * [23](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688214?start=0) Spark DataFrames - Introduction
 * [24](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6674914?start=0) Spark DataFrames - Basics pt1 ...[**`from pyspark.sql import SparkSession`**; **`spark = SparkSession.builder.appName('Basics').getOrCreate()`**; **`df = spark.read.json('people.json')`**] [*`df.show()`; `df.printSchema()`; `df.columns`; `df.describe()`; `df.describe().show()`*] [*@5'08-10'25: in case you ever need to define your own schema*]
-* 25 Spark DataFrames - Basics pt2
+* [25](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6970748?start=0) Spark DataFrames - Basics pt2 ...[*grabbing the data; creating new columns; using SQL with dataframes*]
 * 26 Spark DataFrames - Basic Operations
 * 27 Groupby and Aggregate Operations
 * 28 Missing Data
