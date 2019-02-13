@@ -76,7 +76,7 @@ Then in the second half of the course :
 
 * [23](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688214?start=0) Spark DataFrames - Introduction
 * [24](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6674914?start=0) Spark DataFrames - Basics pt1 ...[**`from pyspark.sql import SparkSession`**; **`spark = SparkSession.builder.appName('Basics').getOrCreate()`**; **`df = spark.read.json('people.json')`**] [*`df.show()`; `df.printSchema()`; `df.columns`; `df.describe()`; `df.describe().show()`*] [*@5'08-10'25: In case you ever need to define your own schema*]
-* [25](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6970748?start=0) Spark DataFrames - Basics pt2 ...[*grabbing the data; creating new columns; using SQL with dataframes*] [*`df.select(['age', 'name']).show()`* ; *`df.withColumn('newage', df['age']).show()`*]
+* [25](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6970748?start=0) Spark DataFrames - Basics pt2 ...[*grabbing the data; creating new columns; using SQL with dataframes*] [*`df.select(['age', 'name']).show()`* ; *`df.withColumn('newage', df['age']).show()`* ; *`df.createOrReplaceTempView('people')`, `results = spark.sql("SELECT * FROM people")`*]
 * [26](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6675062?start=0) Spark DataFrames - Basic Operations
 * 27 Groupby and Aggregate Operations
 * 28 Missing Data
