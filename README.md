@@ -83,7 +83,12 @@ Then in the second half of the course :
 * [29](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688226?start=0) Dates and Timestamps
 
 
-### §9
+### §9 Spark DataFrame Project Exercise
+
+* 30 DataFrame Project Exercise
+* 31 DataFrame Project Exercise Solutions
+
+
 ### §10
 ### §11
 ### §12
