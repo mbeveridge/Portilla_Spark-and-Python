@@ -86,7 +86,7 @@ Then in the second half of the course :
 ### §9 Spark DataFrame Project Exercise
 
 * [30](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688230?start=0) DataFrame Project Exercise
-* 31 DataFrame Project Exercise Solutions
+* [31](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688232?start=0) DataFrame Project Exercise Solutions
 
 
 ### §10
