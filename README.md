@@ -89,14 +89,19 @@ Then in the second half of the course :
 * [31](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688232?start=0) DataFrame Project Exercise Solutions
 
 
-### §10
-### §11
-### §12
-### §13
-### §14
-### §15
-### §16
-### §17
+### §10 Introduction to Machine Learning with MLlib
+
+* 32
+* 33
+
+
+### §11 Linear Regression
+### §12 Logistic Regression
+### §13 Decision Trees and Random Forests
+### §14 K-means Clustering
+### §15 Collaborative Filtering for Recommender Systems
+### §16 Natural Language Processing
+### §17 Spark Streaming with Python
 
 
 ### §18 Bonus
