@@ -91,8 +91,8 @@ Then in the second half of the course :
 
 ### §10 Introduction to Machine Learning with MLlib
 
-* 32
-* 33
+* 32 Introduction to Machine Learning and ISLR
+* 33 Machine Learning (with Spark & Python) with MLlib
 
 
 ### §11 Linear Regression
