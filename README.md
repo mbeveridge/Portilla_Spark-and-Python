@@ -10,15 +10,15 @@ We will cover the following topics :
 
 Then in the second half of the course :
 
-* Introduction to Machine Learning
-* Linear Regression
-* Logistic Regression
-* Decision Trees and Random Forests
+* Introduction to Machine Learning [**s10**]
+* Linear Regression [**s11**]
+* Logistic Regression [**s12**]
+* Decision Trees and Random Forests [**s13**]
 * Gradient Boosted Trees
-* K-Means Clustering
-* Recommender Syatems
-* Natural Language Processing
-* Spark Streaming (local and Twitter)
+* K-Means Clustering [**s14**]
+* Recommender Systems
+* Natural Language Processing [**s16**]
+* Spark Streaming (local and Twitter) [**s17**]
 
 
 ### §1 Introduction to the Course
@@ -78,7 +78,7 @@ Then in the second half of the course :
 * [24](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6674914?start=0) Spark DataFrames - Basics pt1 ...[**`from pyspark.sql import SparkSession`**; **`spark = SparkSession.builder.appName('Basics').getOrCreate()`**; **`df = spark.read.json('people.json')`**] [*`df.show()`; `df.printSchema()`; `df.columns`; `df.describe()`; `df.describe().show()`*] [*@5'08-10'25: In case you ever need to define your own schema*]
 * [25](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6970748?start=0) Spark DataFrames - Basics pt2 ...[*grabbing data with `select()` (to get a df instead of 'column object'); creating new columns; using SQL with dataframes*] [*`df.select(['age', 'name']).show()`* ; *`df.withColumn('newage', df['age']).show()`* ; *`df.createOrReplaceTempView('people')`, `results = spark.sql("SELECT * FROM people")`*]
 * [26](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6675062?start=0) Spark DataFrames - Basic Operations ...[**`from pyspark.sql import SparkSession`**; **`spark = SparkSession.builder.appName('ops').getOrCreate()`**; **`df = spark.read.csv('appl_stock.csv', inferSchema=True, header=True)`**] [*`df.printSchema()`; `df.show()`; `df.head(3)`*] [*Filter w. SQL : `df.filter("Close < 500").show()`; `df.filter("Close < 500").select('Open').show()`; `df.filter("Close < 500").select(['Open', 'Close']).show()`*] [*Filter w. Python : `df.filter(df['Close'] < 500).show()`; `df.filter(df['Close'] < 500).select('Volume').show()`; `df.filter( (df['Close'] < 200) & ~(df['Open'] > 200) ).show()`; `df.filter(df['Low'] == 197.16).show()`; `result = df.filter(df['Low'] == 197.16).collect()`*] [*@8'30: "In real life, you'll probably be 'collecting' more often than 'showing'..."*] [*`row = result[0]`; `row.asDict()['Volume']`*] [*@9'35-10'02:* **"So that's (kind of) your work process more realistically shown ...You'll have some sort of 'collection', off some sort of `filter()` command ... You have to actually index, to grab a particular row object ... And then off of that, if you wanted to, you can just say `asDict()`, and very easily grab the keys from the dictionary"**]
-* [27](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688216?start=0) GroupBy and Aggregate Operations ...[**`spark = SparkSession.builder. appName('aggs').getOrCreate()`**; **`df = spark.read.csv('sales_info.csv', inferSchema=True, header=True)`**] [*`df.groupBy('Company').mean().show()`; `df.groupBy('Company').count().show()`*] [*"Not all methods need a `groupBy()` call. Instead you could just call a generalised `.agg` method that will aggregate across all rows in df" : `df.agg({'Sales':'sum'}).show()`; `df.agg({'Sales':'max'}).show()`*] [*"When you call `df.select()` you can apply that function to whatever column you want, and `show()` or `collect()` the results" "`import` a function ... and you pass that in, within a `select()` call"*] [`df.select(avg('Sales').alias('Average Sales')).show()`]
+* [27](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688216?start=0) GroupBy and Aggregate Operations ...[**`spark = SparkSession.builder. appName('aggs').getOrCreate()`**; **`df = spark.read.csv('sales_info.csv', inferSchema=True, header=True)`**] [*`df.groupBy('Company').mean().show()`; `df.groupBy('Company').count().show()`*] [*"Not all methods need a `groupBy()` call. Instead you could just call a generalised `.agg` method that will aggregate across all rows in df" : `df.agg({'Sales':'sum'}).show()`; `df.agg({'Sales':'max'}).show()`*] [*"When you call `df.select()` you can apply that function to whatever column you want, and `show()` or `collect()` the results" "`import` a function ... and you pass that in, within a `select()` call"*] [**from pyspark.sql.functions import countDistinct, avg, stddev** ... `df.select(avg('Sales').alias('Average Sales')).show()`] [**`from pyspark.sql.functions import format_number`** ... **]
 
 * [28](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688224?start=0) Missing Data ...[]
 * [29](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688226?start=0) Dates and Timestamps ...[]
