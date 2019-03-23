@@ -97,6 +97,13 @@ Then in the second half of the course :
 
 
 ### §11 Linear Regression
+
+* 34 Linear Regression Theory and Reading
+* 35 Linear Regression Documentation Example
+* 36 Regression Evaluation
+* 37 Linear Regression Example Code Along
+
+
 ### §12 Logistic Regression
 ### §13 Decision Trees and Random Forests
 ### §14 K-means Clustering
