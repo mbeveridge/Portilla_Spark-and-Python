@@ -102,6 +102,8 @@ Then in the second half of the course :
 * 35 Linear Regression Documentation Example
 * 36 Regression Evaluation
 * 37 Linear Regression Example Code Along
+* 38 Linear Regression Consulting Project
+* 39 Linear Regression Consulting Project Solutions
 
 
 ### §12 Logistic Regression
