@@ -107,6 +107,14 @@ Then in the second half of the course :
 
 
 ### §12 Logistic Regression
+
+* 40
+* 41
+* 42
+* 43
+* 44
+
+
 ### §13 Decision Trees and Random Forests
 ### §14 K-means Clustering
 ### §15 Collaborative Filtering for Recommender Systems
