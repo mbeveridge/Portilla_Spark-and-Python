@@ -16,7 +16,7 @@ Then in the second half of the course :
 * Decision Trees and Random Forests [**s13**]
 * Gradient Boosted Trees
 * K-Means Clustering [**s14**]
-* Recommender Systems
+* Recommender Systems [**s15**]
 * Natural Language Processing [**s16**]
 * Spark Streaming (local and Twitter) [**s17**]
 
@@ -81,7 +81,7 @@ Then in the second half of the course :
 * [27](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688216?start=0) GroupBy and Aggregate Operations ...[**`spark = SparkSession.builder. appName('aggs').getOrCreate()`**; **`df = spark.read.csv('sales_info.csv', inferSchema=True, header=True)`**] [*`df.groupBy('Company').mean().show()`; `df.groupBy('Company').count().show()`*] [*"Not all methods need a `groupBy()` call. Instead you could just call a generalised `.agg` method that will aggregate across all rows in df" : `df.agg({'Sales':'sum'}).show()`; `df.agg({'Sales':'max'}).show()`*] [*"When you call `df.select()` you can apply that function to whatever column you want, and `show()` or `collect()` the results" "`import` a function ... and you pass that in, within a `select()` call"*] [**`from pyspark.sql.functions import countDistinct, avg, stddev`** *... `df.select(avg('Sales').alias('Average Sales')).show()`*] [**`from pyspark.sql.functions import format_number`** *... `df.select(format_number(stddev('Sales'), 2).alias('std')).show()`*] [*`df.orderBy("Sales").show()` v's `df.orderBy("Sales", ascending=False).show()`*]
 
 * [28](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688224?start=0) Missing Data ...[**`spark = SparkSession.builder. appName('miss').getOrCreate()`**; **`df = spark.read.csv('ContainsNull.csv', inferSchema=True, header=True)`**] [*DROP row : `df.na.drop().show()`; `df.na.drop(thresh=2).show()`; `df.na.drop(how='any').show()`; `df.na.drop(how='all').show()`; `df.na.drop(subset=['Sales']).show()`*] [*REPLACE Null : `df.na.fill('FILL VALUE').show()`; `df.na.fill(0).show()` "...Usually (however) you would probably specify what columns you want to fill. You wouldn't just depend on Spark to be smart enough to get it for you" ...eg. `df.na.fill('No Name', subset=['Name']).show()`*] [*REPLACE Null with an average :* **`from pyspark.sql.functions import mean`** *and `mean_val = df.select(mean(df['Sales'])).collect()` and `mean_sales = mean_val[0][0]` and `df.na.fill(mean_sales, ['Sales']).show()`*]
-* [29](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688226?start=0) Dates and Timestamps ...[]
+* [29](https://www.udemy.com/spark-and-python-for-big-data-with-pyspark/learn/v4/t/lecture/6688226?start=0) Dates and Timestamps ...[**`spark = SparkSession.builder. appName('dates').getOrCreate()`**; **`df = spark.read.csv('appl_stock.csv', header=True, inferSchema=True)`**]
 
 
 ### §9 Spark DataFrame Project Exercise
